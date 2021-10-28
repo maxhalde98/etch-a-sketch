@@ -1,0 +1,33 @@
+.row {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 35%;
+}
+
+.divBox {
+    position: relative;
+}
+
+.divBox:before {
+	content: "";
+	float: left;
+	padding-top: 100%; 	/* initial ratio of 1:1*/
+}
+
+#container {
+    display: flex;
+    width: 100%;
+    
+    margin-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn-container {
+    display: flex;
+    justify-content: center;
+    padding-top:38px;
+    padding-bottom: 38px;
+}
